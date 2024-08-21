@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.cont-1{
+.cont-1 {
     display: flex;
     justify-content: center;
     margin-top: 20rem;
 }
 
-.svg-flex{
+.svg-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cont-2{
+.cont-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 10%;
 }
 
-.cont-3{
+.cont-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,24 +33,24 @@
     margin-top: 5%;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.bottom{
+.bottom {
     margin-bottom: 15px;
 }
 
-input{
+input {
     padding-left: 14px;
     height: 45px;
     width: 350px;
     border-radius: 10px;
 }
 
-.link{
+.link {
     background-color: #4f4f4f;
     width: 350px;
     height: 45px;
@@ -62,24 +62,25 @@ input{
     margin-bottom: 10px;
 }
 
-.line{
+.line {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
 }
 
-.line-1, .line-2{
+.line-1,
+.line-2 {
     width: 150px;
     height: 1px;
     background-color: #4f4f4f;
 }
 
-.sign-up{
+.sign-up {
     text-align: center;
 }
 
-.google-1{
+.google-1 {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -96,10 +97,8 @@ input{
     margin-bottom: 10px;
 }
 
-
-@media only screen and (max-width: 768px){
-    body{
+@media only screen and (max-width: 768px) {
+    body {
         margin-top: 20rem;
     }
-  }
-
+}
